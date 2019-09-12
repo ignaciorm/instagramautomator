@@ -11,7 +11,7 @@ path = 'queue/'
 onlyfiles = [f for f in listdir(path) if isfile(join(path, f))] # onlyfiles is an array containing the filenames of all queued photos
 n = 0
 secondsinaday = 86400
-timespace = secondsinaday * 3
+timespace = 20
 
 text = '#streetphotography'
 
